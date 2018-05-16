@@ -33,4 +33,4 @@ decide(input: value) returns(value)
 
 - Validity – Каждый поток инициализирует свою позицию в `prefer` до выполение `Mem-Swap` => валидно.
 
-- Wait-Free Termination – В методе `decide` есть цикл, но он ограничен, поэтому у насть есть гарантия wait-free.
+- Wait-Free Termina tion – В методе `decide` есть цикл, но он ограничен, поэтому у насть есть гарантия wait-free.
